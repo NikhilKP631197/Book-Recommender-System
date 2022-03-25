@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 db = MySQLConnection(host = 'localhost', 
                      username = 'root', 
-                     password = 'mysqlNik631197',
+                     password = 'password',
                      database = 'books_database')
 
 cursor = db.cursor(buffered = True)
